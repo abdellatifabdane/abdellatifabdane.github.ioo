@@ -1,0 +1,80 @@
+#wrapper {
+    width: 960px;
+    margin: 15px auto;
+  }
+
+#map {
+  height: 450px;
+  margin: 15px auto;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.legend, .temporal-legend {
+  padding: 6px 10px;
+  /* font: 14px/16px Arial, Helvetica, sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  
+}
+
+#legendTitle {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+  opacity: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #708598;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.symbolsContainer {
+  float: left;
+  margin-left: 50px;
+  
+}
+
+.legendCircle {
+  border-radius: 50%;
+  border: 1px solid #537898;
+  background: rgba(113, 133, 152, .6);
+  display: inline-block;
+}
+
+.legendValue {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  position: absolute;
+  right: 10px;
+}
+
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Open-Sans, Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.info h4 {
+  margin: 0 0 -8px;
+  color: #708598;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-display: normal;
+  letter-spacing: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
